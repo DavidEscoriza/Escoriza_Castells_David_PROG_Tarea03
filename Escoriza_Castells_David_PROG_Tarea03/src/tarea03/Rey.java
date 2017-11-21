@@ -18,4 +18,10 @@ public class Rey {
             this.posicion.setColumna('e');
         }
     }
+    
+    public Rey(){
+        this.color=Color.BLANCO;
+        this.posicion.setFila(1);
+        this.posicion.setColumna('e');
+    }
 }
