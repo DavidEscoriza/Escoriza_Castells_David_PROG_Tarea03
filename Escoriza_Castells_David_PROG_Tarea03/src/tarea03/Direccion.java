@@ -5,5 +5,5 @@ package tarea03;
  * @author David
  */
 public enum Direccion {
-    NORTE, NORESTE, ESTE, SURESTE, SUR, SUROESTE, OESTE, NOROESTE
+    NORTE, NORESTE, ESTE, SURESTE, SUR, SUROESTE, OESTE, NOROESTE;
 }

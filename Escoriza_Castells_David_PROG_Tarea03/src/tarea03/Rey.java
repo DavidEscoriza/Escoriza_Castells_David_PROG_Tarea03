@@ -16,11 +16,9 @@ public class Rey {
     public Rey(Color color){
         this.color=color;
         if (this.color==Color.BLANCO){
-            this.posicion.setFila(1);
-            this.posicion.setColumna('e');
+            this.posicion=new Posicion(1,'e');
         } else {
-            this.posicion.setFila(8);
-            this.posicion.setColumna('e');
+            this.posicion=new Posicion(8,'e');
         }
     }
     
@@ -29,8 +27,7 @@ public class Rey {
      */
     public Rey(){
         this.color=Color.BLANCO;
-        this.posicion.setFila(1);
-        this.posicion.setColumna('e');
+            this.posicion=new Posicion(1,'e');
     }
     
     /**
@@ -53,6 +50,7 @@ public class Rey {
      * Generamos método toString para devolver la posicion y el color del rey.
      * @return 
      */
+    @Override
     public String toString(){
         return "El rey "+this.color+" está en la posición "+this.posicion.toString();
     }
