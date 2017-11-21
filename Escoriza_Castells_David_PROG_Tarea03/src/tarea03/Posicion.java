@@ -44,5 +44,9 @@ public class Posicion {
             this.columna='a';
         }        
     }
+    
+    public String toString(){
+        return "Fila: "+this.fila+". Columna: "+this.columna;
+    }
 }
 
